@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Use-alternate-font-from-installed-fonts", "Use-alternate-font-from-installed-fonts\Use-alternate-font-from-installed-fonts.csproj", "{36B09E7B-37CD-4FD1-8780-3E8E971F49BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B09E7B-37CD-4FD1-8780-3E8E971F49BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B09E7B-37CD-4FD1-8780-3E8E971F49BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B09E7B-37CD-4FD1-8780-3E8E971F49BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B09E7B-37CD-4FD1-8780-3E8E971F49BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76BA5D4F-025D-42D6-9B6B-04B9D6131386}
+	EndGlobalSection
+EndGlobal

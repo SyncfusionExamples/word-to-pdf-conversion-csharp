@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Track-changes-in-Word-to-PDF-conversion", "Track-changes-in-Word-to-PDF-conversion\Track-changes-in-Word-to-PDF-conversion.csproj", "{27202B99-283F-4CAD-93F3-FAEEDEE05E1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27202B99-283F-4CAD-93F3-FAEEDEE05E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27202B99-283F-4CAD-93F3-FAEEDEE05E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27202B99-283F-4CAD-93F3-FAEEDEE05E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27202B99-283F-4CAD-93F3-FAEEDEE05E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16EB3ACD-4EDC-4051-B904-EDE5A09D38C6}
+	EndGlobalSection
+EndGlobal
