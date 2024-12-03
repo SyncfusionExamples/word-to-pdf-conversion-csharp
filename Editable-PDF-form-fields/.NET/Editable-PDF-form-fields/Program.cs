@@ -13,7 +13,7 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())
         {
-            //Set true to preserve the Word document form field as editable PDF form field in PDF document.
+            //Set to true to preserve Word document form fields as editable PDF form fields.
             renderer.Settings.PreserveFormFields = true;
             //Convert Word document into PDF document.
             using (PdfDocument pdfDocument = renderer.ConvertToPDF(wordDocument))

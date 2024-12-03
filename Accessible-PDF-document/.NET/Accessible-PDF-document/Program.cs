@@ -12,7 +12,7 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())
         {
-            //Set true to preserve document structured tags in the converted PDF document.
+            //Enable this flag to generate an accessible PDF with structured tags.
             renderer.Settings.AutoTag = true;
             //Convert Word document into PDF document.
             using (PdfDocument pdfDocument = renderer.ConvertToPDF(wordDocument))

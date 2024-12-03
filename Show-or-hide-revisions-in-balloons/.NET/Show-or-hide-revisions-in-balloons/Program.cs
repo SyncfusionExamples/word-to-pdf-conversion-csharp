@@ -10,9 +10,9 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
     //Load an existing Word document.
     using (WordDocument wordDocument = new WordDocument(inputStream, FormatType.Docx))
     {
-        //Set revision types to preserve track changes in Word when converting to PDF.
+        //Set revision options to preserve track changes (deletions, insertions, and formatting) when converting to PDF.
         wordDocument.RevisionOptions.ShowMarkup = RevisionType.Deletions | RevisionType.Formatting | RevisionType.Insertions;
-        //Hide showing revisions in balloons when converting Word documents to PDF.
+        //Disable showing revisions in balloons (will not be visible in the PDF).
         wordDocument.RevisionOptions.ShowInBalloons = RevisionType.None;
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())

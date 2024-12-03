@@ -14,7 +14,7 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())
         {
-            //Set true to embed TrueType fonts.
+            //Set to true to embed TrueType fonts in the PDF.
             renderer.Settings.EmbedFonts = true;
             //Convert Word document into PDF document.
             using (PdfDocument pdfDocument = renderer.ConvertToPDF(wordDocument))

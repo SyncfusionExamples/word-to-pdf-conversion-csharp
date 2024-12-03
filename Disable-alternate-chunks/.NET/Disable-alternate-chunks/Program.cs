@@ -13,7 +13,7 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())
         {
-            //Set false to disable converting the alternate chunks present in Word document to PDF.
+            //Set to false to disable the conversion of alternate chunks in the Word document to PDF.
             renderer.Settings.EnableAlternateChunks = false;
             //Convert Word document into PDF document.
             using (PdfDocument pdfDocument = renderer.ConvertToPDF(wordDocument))

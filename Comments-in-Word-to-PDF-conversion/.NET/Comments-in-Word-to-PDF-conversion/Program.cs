@@ -9,9 +9,9 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
     //Load an existing Word document.
     using (WordDocument wordDocument = new WordDocument(inputStream, FormatType.Docx))
     {
-        //Set ShowInBalloons to render a document comments in converted PDF document.
+        //Set the display mode for document comments to be shown in balloons.
         wordDocument.RevisionOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
-        //Set the color to be used for Comment Balloon.
+        //Set the color to be used for comment balloons in PDF.
         wordDocument.RevisionOptions.CommentColor = RevisionColor.Blue;
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())

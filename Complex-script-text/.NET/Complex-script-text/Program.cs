@@ -13,7 +13,7 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
         //Create an instance of DocIORenderer.
         using (DocIORenderer renderer = new DocIORenderer())
         {
-            //Set AutoDetectComplexScript property to true to detect the complex scripts automatically.
+            //Set the AutoDetectComplexScript property to true to automatically detect complex scripts.
             renderer.Settings.AutoDetectComplexScript = true;
             //Convert Word document into PDF document.
             using (PdfDocument pdfDocument = renderer.ConvertToPDF(wordDocument))

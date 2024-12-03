@@ -17,13 +17,14 @@ using (FileStream inputStream = new FileStream(Path.GetFullPath(@"../../../Data/
             //Convert Word document into PDF document.
             using (PdfDocument pdfDocument = renderer.ConvertToPDF(wordDocument))
             {
-                //Document security.
+                //Set document security settings for the PDF.
                 PdfSecurity security = pdfDocument.Security;
-                //Specific key size and encryption algorithm using 256-bit key in AES mode.
+                //Set encryption to 256-bit AES for stronger protection.
                 security.KeySize = PdfEncryptionKeySize.Key256Bit;
                 security.Algorithm = Syncfusion.Pdf.Security.PdfEncryptionAlgorithm.AES;
+                //Set the owner password for the PDF.
                 security.OwnerPassword = "syncfusion";
-                //It restrict printing and copying of PDF document.
+                //Restrict content actions such as printing and copying.
                 security.Permissions = ~(PdfPermissionsFlags.CopyContent | PdfPermissionsFlags.Print);
                 //Save the PDF file to file system.    
                 using (FileStream outputStream = new FileStream(Path.GetFullPath(@"../../../Output.pdf"), FileMode.Create, FileAccess.ReadWrite))
