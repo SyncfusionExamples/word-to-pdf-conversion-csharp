@@ -8,16 +8,16 @@ This repository contains examples that illustrates how to convert Word documents
 
 ## Key Features
 
-- Word to PDF conversions
+- **Word to PDF conversions**
   - [Convert Word to PDF](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-conversions/Convert-Word-to-PDF) - Convert Word document to PDF.
   - [Accessible PDF document](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-conversions/Accessible-PDF-document) - Convert Word document to PDF/UA (Section 508 compliant).
   - [PDF conformance level](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-conversions/PDF-conformance-level) - Convert Word document to PDF/A with various PDF conformance levels for long-term archiving and standardization.
 
-- Embed fonts
+- **Embed fonts**
   - [Embed font subset](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Embed-fonts/Embed-font-subset) - Embed only the necessary font subsets to optimize file size.
   - [Embed complete font](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Embed-fonts/Embed-complete-font) - Embed fonts within the PDF for consistent display.
 
-- Word to PDF advanced options
+- **Word to PDF advanced options**
   - [Editable PDF form fields](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-advanced-options/Editable-PDF-form-fields) - Preserve Word document form fields as PDF forms, allowing the creation of editable PDFs.
   - [Word headings to PDF bookmarks](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-advanced-options/Word-headings-to-PDF-bookmarks) - Convert Word headings to PDF bookmarks, generating PDF documents with bookmarks based on paragraph styles and outline levels.
   - [Optimize identical images](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-advanced-options/Optimize-identical-images) - Optimize identical images to reduce PDF file size.
@@ -27,17 +27,17 @@ This repository contains examples that illustrates how to convert Word documents
   - [Comments in Word-to-PDF](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-advanced-options/Comments-in-Word-to-PDF) - Toggle between preserving or excluding comments during Word to PDF conversions.
   - [Restrict permission in PDF](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Word-to-PDF-advanced-options/Restrict-permission-in-PDF) - Restrict permissions in the converted PDF for added security.
 
-- Preserve track changes
+- **Preserve track changes**
   - [Track-changes-in-Word-to-PDF](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Preserve-track-changes/Track-changes-in-Word-to-PDF) - Preserve revision marks of tracked changes in the converted PDF.
   - [Change track changes color](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Preserve-track-changes/Change-track-changes-color) - Customize the color of track changes marks during conversion.
   - [Show or hide revisions in balloons](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Preserve-track-changes/Show-or-hide-revisions-in-balloons) - Show or hide revisions in balloons during conversion.
 
-- Fallback fonts
+- **Fallback fonts**
   - [Default fallback fonts](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Fallback-fonts/Default-fallback-fonts) - Initialize default fallback fonts for a smoother conversion
   - [Based on script type](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Fallback-fonts/Based-on-script-type) - Set fallback fonts based on script type for unsupported glyphs.
   - [For range of Unicode](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Fallback-fonts/For-range-of-Unicode) - Set fallback fonts for characters when glyphs are not available.
 
-- Font substitution
+- **Font substitution**
   - [Alternate font from installed](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Font-substitution/Alternate-font-from-installed) - Use alternate installed fonts when the original fonts are not available during Word to PDF conversion.
   - [Alternate font without installing](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Font-substitution/Alternate-font-without-installing) - Use alternate fonts without requiring font installation.
 
