@@ -38,7 +38,7 @@ This repository contains examples that illustrates how to convert Word documents
   - [For range of Unicode](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Fallback-fonts/For-range-of-Unicode) - Set fallback fonts for characters when glyphs are not available.
 
 - Font substitution
-  - [Alternate font from installed](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Font-substitution/Alternate-font-from-installed) - Use alternate fonts from installed in font substitution when fonts are not available during Word to PDF conversion.
+  - [Alternate font from installed](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Font-substitution/Alternate-font-from-installed) - Use alternate installed fonts when the original fonts are not available during Word to PDF conversion.
   - [Alternate font without installing](https://github.com/SyncfusionExamples/word-to-pdf-conversion-csharp/blob/master/Font-substitution/Alternate-font-without-installing) - Use alternate fonts without requiring font installation.
 
 ## Syncfusion&reg; .NET Word Library
