@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restrict-permission-in-PDF", "Restrict-permission-in-PDF\Restrict-permission-in-PDF.csproj", "{441CFF40-28E3-4F52-B76A-1B76C28D6694}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441CFF40-28E3-4F52-B76A-1B76C28D6694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441CFF40-28E3-4F52-B76A-1B76C28D6694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441CFF40-28E3-4F52-B76A-1B76C28D6694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441CFF40-28E3-4F52-B76A-1B76C28D6694}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60DC135-838F-4CFB-AD5D-874FE4717C8F}
+	EndGlobalSection
+EndGlobal
