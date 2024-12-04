@@ -72,7 +72,7 @@ Supported File Formats
 ## Resources
 
 - **Product page:** [Syncfusion&reg; Word Framework](https://www.syncfusion.com/document-processing/word-framework/net?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
-- **Documentation:** [Split Word document using Syncfusion&reg; Word library](https://help.syncfusion.com/document-processing/word/conversions/word-to-pdf/net/word-to-pdf?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
+- **Documentation:** [Convert Word document to PDF using Syncfusion&reg; Word library](https://help.syncfusion.com/document-processing/word/conversions/word-to-pdf/net/word-to-pdf?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
 - **GitHub Examples:** [Syncfusion&reg; Word library examples](https://github.com/SyncfusionExamples/DocIO-Examples?utm_source=github&utm_medium=listing&utm_campaign=github-docio-examples)
 - **Online demo:** [Syncfusion&reg; Word library - Online demos](https://ej2aspnetcore.azurewebsites.net/aspnetcore/word/wordtopdf#/material3)
 
